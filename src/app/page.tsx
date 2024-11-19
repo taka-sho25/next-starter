@@ -5,10 +5,10 @@ export default function Home() {
     <div>
       <ul>
         <li>
-          <Link href='/form'> Form </Link>
+          <Link href='/form'> Form Page </Link>
         </li>
         <li>
-          <Link href='/api'> Api </Link>
+          <Link href='/api'> Api Page </Link>
         </li>
       </ul>
     </div>

@@ -1,7 +1,7 @@
 import type { DefineMethods } from 'aspida'
 import { mockMethods } from 'aspida-mock'
 
-type Article = {
+export type Article = {
   id: number
   image: string
   title: string

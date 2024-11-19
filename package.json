@@ -11,6 +11,8 @@
     "lint": "biome lint ./src",
     "format": "biome format ./src --write",
     "check": "biome check ./src",
+    "test": "vitest",
+    "test:update": "vitest -u",
     "api:build": "aspida -c ./aspida.config.js && aspida-mock"
   },
   "dependencies": {
@@ -26,11 +28,16 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
+    "@testing-library/react": "^16.0.1",
+    "@testing-library/user-event": "^14.5.2",
     "@types/node": "^22",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@vitejs/plugin-react": "^4.3.3",
+    "jsdom": "^25.0.1",
     "npm-run-all2": "^7.0.1",
     "typed-css-modules": "^0.9.1",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vitest": "^2.1.5"
   }
 }

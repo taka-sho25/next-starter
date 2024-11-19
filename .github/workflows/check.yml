@@ -43,7 +43,7 @@ jobs:
         working-directory: ./
         run: pnpm run lint
 
-      # - name: Test
-      #   shell: "bash"
-      #   working-directory: ./
-      #   run: pnpm run test
+      - name: Test
+        shell: "bash"
+        working-directory: ./
+        run: pnpm run test
