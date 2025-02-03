@@ -20,7 +20,7 @@
     "aspida": "^1.14.0",
     "aspida-mock": "^0.11.1",
     "clsx": "^2.1.1",
-    "next": "15.1.5",
+    "next": "15.1.6",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "react-hook-form": "^7.54.2",
@@ -29,7 +29,7 @@
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "@testing-library/react": "^16.2.0",
-    "@testing-library/user-event": "^14.6.0",
+    "@testing-library/user-event": "^14.6.1",
     "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",
@@ -38,6 +38,6 @@
     "npm-run-all2": "^7.0.2",
     "typed-css-modules": "^0.9.1",
     "typescript": "^5",
-    "vitest": "^3.0.2"
+    "vitest": "^3.0.4"
   }
 }
