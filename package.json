@@ -20,24 +20,24 @@
     "aspida": "^1.14.0",
     "aspida-mock": "^0.11.1",
     "clsx": "^2.1.1",
-    "next": "15.3.1",
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "react-hook-form": "^7.56.2",
-    "zod": "^3.24.4"
+    "next": "16.1.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-hook-form": "^7.69.0",
+    "zod": "^4.2.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.9.4",
-    "@testing-library/react": "^16.3.0",
+    "@biomejs/biome": "2.3.10",
+    "@testing-library/react": "^16.3.1",
     "@testing-library/user-event": "^14.6.1",
-    "@types/node": "^22",
+    "@types/node": "^25",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@vitejs/plugin-react": "^4.4.1",
-    "jsdom": "^26.1.0",
-    "npm-run-all2": "^8.0.1",
+    "@vitejs/plugin-react": "^5.1.2",
+    "jsdom": "^27.3.0",
+    "npm-run-all2": "^8.0.4",
     "typed-css-modules": "^0.9.1",
     "typescript": "^5",
-    "vitest": "^3.1.2"
+    "vitest": "^4.0.16"
   }
 }
